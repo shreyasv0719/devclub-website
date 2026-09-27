@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevClub | Build. Learn. Create.</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="navbar">
+    <a href="#" class="logo">DEV<span>CLUB</span></a>
+    <nav class="nav-links">
+        <a href="#about">About</a><a href="#events">Events</a>
+        <a href="#projects">Projects</a><a href="#join">Join</a>
+    </nav>
+    <button class="join-button">Join Club</button>
+</header>
+
+<main>
+
+<section class="hero">
+    <div class="hero-content">
+        <p class="hero-label">STUDENT DEVELOPER COMMUNITY</p>
+        <h1>Build. <span>Learn.</span> Create.</h1>
+        <p class="hero-description">
+            A student developer community where ideas turn into real projects.
+        </p>
+        <div class="hero-buttons">
+            <a href="#events" class="primary-button">Explore Events →</a>
+            <a href="#about" class="secondary-button">Discover DevClub</a>
+        </div>
+    </div>
+
+<div class="hero-3d">
+
+    <div class="orbit orbit-one"></div>
+    <div class="orbit orbit-two"></div>
+
+    <div class="floating-code code-one">&lt;/&gt;</div>
+    <div class="floating-code code-two">{ }</div>
+    <div class="floating-code code-three">AI</div>
+
+    <div class="particle particle-one">✦</div>
+    <div class="particle particle-two">+</div>
+    <div class="particle particle-three">•</div>
+
+    <div class="cube">
+        <div class="face front">DEV</div>
+        <div class="face back">CODE</div>
+        <div class="face right">AI</div>
+        <div class="face left">BUILD</div>
+        <div class="face top">CREATE</div>
+        <div class="face bottom">2026</div>
+    </div>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="stats reveal">
+    <div><strong class="number">50+</strong><span>Builders</span></div>
+    <div><strong class="number">20+</strong><span>Projects</span></div>
+    <div><strong class="number">12</strong><span>Events</span></div>
+</section>
+
+<section class="section about reveal" id="about">
+    <div>
+        <p class="label">01 — ABOUT US</p>
+        <h2>More than a club. <span>A place to build.</span></h2>
+    </div>
+    <div class="text">
+        <p>Learn, collaborate and build real projects with other students.</p>
+        <p>Explore Web Development, AI/ML, Cybersecurity and more.</p>
+    </div>
+</section>
+
+<section class="section reveal" id="events">
+    <p class="label">02 — EVENTS</p>
+    <h2>What's happening.</h2>
+    <div class="cards">
+        <article><small>HACKATHON</small><h3>Build Night</h3><p>Turn your idea into a working prototype.</p></article>
+        <article><small>WORKSHOP</small><h3>AI & Web Lab</h3><p>Explore AI and modern web development.</p></article>
+        <article><small>WORKSHOP</small><h3>Git & GitHub</h3><p>Learn how developers collaborate.</p></article>
+    </div>
+</section>
+
+<section class="section reveal" id="projects">
+    <p class="label">03 — PROJECTS</p>
+    <h2>Built by the <span>community.</span></h2>
+    <div class="cards">
+        <article><small>AI / ML</small><h3>Campus AI</h3><p>AI tools built to solve student problems.</p></article>
+        <article><small>WEB</small><h3>EventHub</h3><p>A platform for discovering campus events.</p></article>
+        <article><small>OPEN SOURCE</small><h3>ClubKit</h3><p>Open-source resources for developers.</p></article>
+    </div>
+</section>
+
+<section class="learning reveal">
+    <div>
+        <p class="label">04 — EXPLORE</p>
+        <h2>Learn what <span>you want to build.</span></h2>
+    </div>
+    <div>
+        <div class="learning-item"><b>Web Development</b><small>HTML · CSS · JavaScript</small></div>
+        <div class="learning-item"><b>AI / ML</b><small>Python · ML · GenAI</small></div>
+        <div class="learning-item"><b>Cybersecurity</b><small>Networks · Security · CTFs</small></div>
+    </div>
+</section>
+
+<section class="join reveal" id="join">
+    <p class="label">05 — JOIN THE COMMUNITY</p>
+    <h2>Have an idea? <span>Build it.</span></h2>
+    <p>You don't need to be an expert. You just need to start.</p>
+    <button class="primary" id="joinButton">Join DevClub →</button>
+</section>
+
+</main>
+
+<footer>
+    <a href="#" class="logo">DEV<span>CLUB</span></a>
+    <p>Build. Learn. Create.</p>
+    <p>© 2026 DevClub</p>
+</footer>
+
+<div class="modal" id="joinBox">
+    <div class="form">
+        <button id="closeButton">×</button>
+        <h2>Join <span>DevClub</span></h2>
+        <p>Start building with the community.</p>
+        <input type="text" id="nameInput" placeholder="Your name">
+        <input type="email" placeholder="Your email">
+        <button class="primary" id="submitButton">Join Now</button>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
